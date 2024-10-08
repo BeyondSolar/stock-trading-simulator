@@ -5,10 +5,8 @@
   "main": "./server/server.js",
   "scripts": {
     "install": "npm install --legacy-peer-deps",
-    "start": "node server/server.js",
-    "build": "npm run install && cd client && npm run build",
-    "install-client": "cd client && npm install",
-    "heroku-postbuild": "npm run install-client && npm run build"
+    "start": "npm run install && node index.js",
+    "build": "npm run install && cd client && npm run build"
   },
   "repository": {
     "type": "git",
