@@ -21,8 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "install": "npm install --legacy-peer-deps"
+    "build": "react-scripts --legacy-peer-deps build",
   },
   "engines": {
     "node": "20.x"
