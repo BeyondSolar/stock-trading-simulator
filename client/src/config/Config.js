@@ -1,4 +1,4 @@
 var config = {};
-config.base_url = "http://localhost:3000";
+config.base_url = "https://stock-trading-simulator-backend.vercel.app";
 export default config;
  
