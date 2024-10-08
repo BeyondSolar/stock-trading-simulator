@@ -22,10 +22,14 @@
     "react-scripts": "^5.0.1",
     "recharts": "^2.1.9"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts --legacy-peer-deps build"
-  },
+  
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "npm install --legacy-peer-deps && react-scripts build",
+      "install": "npm install --legacy-peer-deps"
+    }
+  ,
+  
   "browserslist": {
     "production": [
       ">0.2%",
